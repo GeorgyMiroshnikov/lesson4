@@ -28,7 +28,7 @@ class Solution {
             System.out.println(araiV2[j]);
         }
 
-        int[] araiV3 = new int[] {555, 3, 976 , 33 , 0};
+        int[] araiV3 = new int[] {555, 3, 976 , 33 , 33};
 
 //foreach
 
