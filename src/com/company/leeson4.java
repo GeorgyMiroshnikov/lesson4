@@ -1,5 +1,4 @@
 package com.company;
-
 public class leeson4 {
 }
 
@@ -21,14 +20,14 @@ class Solution {
 
 
 
-            int[] araiV2 = new int[] {22, 15, 66 , 24 , 65};
+        int[] araiV2 = new int[] {22, 15, 66 , 24 , 65};
         System.out.println(araiV2[4]= 28);
 
         for (int j = 0 ; j<araiV2.length; j++){
             System.out.println(araiV2[j]);
         }
 
-        int[] araiV3 = new int[] {555, 3, 976 , 33 , 33};
+        int[] araiV3 = new int[] {555, 3, 976 , 33 , 0};
 
 //foreach
 
@@ -36,6 +35,16 @@ class Solution {
 
             System.out.println(item);
         }
+
+        //двумерные массивы
+
+        int[][] array = new int[8][8];
+
+        array[0][0] = 99;
+        array[0][1] = 108;
+
+        System.out.println(array[0][1] + array[0][0]);
+        System.out.println(array[1][0] + array[0][0]);
 
 
 
@@ -46,3 +55,5 @@ class Solution {
 
     }
 }
+
+
