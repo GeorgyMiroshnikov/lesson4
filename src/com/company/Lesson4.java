@@ -2,10 +2,10 @@ package com.company;
 
 public class Lesson4 {
     public static void main(String[] args) {
-
         int year = 1980;
         for (int j = 0; j < 6; j++) {
-            System.out.println(year++ + " год");
+            System.out.println("Год " +
+                    year++);
         }
 
         int[] araiV1 = new int[5];
